@@ -20,8 +20,8 @@ public class Kalkulator {
                 pilihan = input.nextInt();
             } catch (Exception e) {
                 System.out.println("Input tidak valid! Masukkan angka 1-7.");
-                input.nextLine(); // Clear the invalid input
-                pilihan = 0; // Set to invalid choice to continue loop
+                input.nextLine();
+                pilihan = 0;
                 continue;
             }
 
@@ -65,7 +65,7 @@ public class Kalkulator {
             y = input.nextDouble();
         } catch (Exception e) {
             System.out.println("Input tidak valid! Masukkan angka yang benar.");
-            input.nextLine(); // Clear the invalid input
+            input.nextLine();
             return;
         }
         
@@ -122,7 +122,7 @@ public class Kalkulator {
             System.out.println(a + "^" + b + " = " + Math.pow(a, b));
         } catch (Exception e) {
             System.out.println("Input tidak valid! Masukkan angka yang benar.");
-            input.nextLine(); // Clear the invalid input
+            input.nextLine();
         }
     }
 
